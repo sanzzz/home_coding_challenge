@@ -14,29 +14,29 @@ pytest
 
 6)To execute the program 
 
-echo "abc123" | ./myProg
+echo "abc123" | python3 myProg
 
-echo "abc123" | ./myProg -x
+echo "abc123" | python3 myProg -x
 
-echo "qq" | ./myProg
+echo "qq" | python3 myProg
 
 echo "abc123" > file.tmp
-./myProg -f file.tmp
+python3 myProg -f file.tmp
 
 7)To execute the script using different values
 Usage:
 
 i)Adding input digits
-./myProg
+python3 myProg
 465  - Enter the number
 15
 
 ii)Adding hexadecimal digits in decimal 
-./myProg -x
+python3 myProg -x
 Number: b34
 18
 
 
 iii)Adding digits in file
-./myProg -f file.tmp
+python3 myProg -f file.tmp
 6

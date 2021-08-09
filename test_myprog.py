@@ -1,5 +1,3 @@
-#!/Library/Frameworks/Python.framework/Versions/3.9/bin/python3
-
 import pytest
 import newProg
 from io import StringIO
