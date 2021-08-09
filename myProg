@@ -1,0 +1,18 @@
+#!/Library/Frameworks/Python.framework/Versions/3.9/bin/python3
+import sys
+import newProg
+
+condition=""
+if (len(sys.argv) == 1):
+  condition = ""
+else:
+  condition = sys.argv[1]
+
+if (condition == "-x"):
+  print(newProg.hexnumbers())
+elif (condition == "-f"):
+  print(newProg.file_sum(sys.argv[2]))
+elif (condition == ""):
+  print(newProg.sum())
+else:
+  print("This arguments/option is not considered") 
