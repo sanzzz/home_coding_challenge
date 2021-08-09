@@ -22,3 +22,21 @@ echo "qq" | ./myProg
 
 echo "abc123" > file.tmp
 ./myProg -f file.tmp
+
+7)To execute the script using different values
+Usage:
+
+i)Adding input digits
+./myProg
+465  - Enter the number
+15
+
+ii)Adding hexadecimal digits in decimal 
+./myProg -x
+Number: b34
+18
+
+
+iii)Adding digits in file
+./myProg -f file.tmp
+6
